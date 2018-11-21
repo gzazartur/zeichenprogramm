@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Zeichenpogramm</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script src="drawer.js" type="text/javascript"></script>
+</head>
+
+<body onload="init()">
+
+<p>Wählen Sie auf der linken Seite Ihr Zeichwerkzeug aus.
+Haben Sie eines ausgewählt, können Sie mit der Maus
+die entsprechenden Figuren zeichen. Typischerweise, indem
+Sie die Maus drücken, dann mit gedrückter Maustaste die
+Form bestimmen, und dann anschließend die Maustaste loslassen.
+</p>
+
+<ul class="tools"></ul>
+
+<canvas id="drawArea" width="400" height="300"></canvas>
+
+<textarea id="eventsAsText"></textarea>
+
+<button id="resetButton"></button>
+<button id="loadButton"></button>
+
+</body>
+</html>

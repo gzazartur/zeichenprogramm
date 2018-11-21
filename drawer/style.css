@@ -1,0 +1,25 @@
+.tools {
+    width: 100px;
+    float: left;
+    padding: 5px;
+}
+
+.tools li {
+    padding: 5px;
+    list-style: none;
+}
+
+.tools li:hover {
+    color: cornflowerblue;
+    cursor: pointer;
+}
+
+.tools li.marked {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+#drawArea {
+    border:1px solid #000000;
+    background-color: lightgrey;
+}
